@@ -1,0 +1,96 @@
+{
+  "dataset": "Mar15-small",
+  "selected_search": "refined (03)",
+  "best_params": {
+    "n_estimators": 500,
+    "max_depth": 8,
+    "min_samples_leaf": 10,
+    "max_features": 0.7
+  },
+  "saved_cv_mae": 3.046474976277075,
+  "n_repeats": 10,
+  "random_state": 42,
+  "correlation": "spearman",
+  "linkage": "complete",
+  "absolute_correlation_threshold": 0.8,
+  "clustering_years": [
+    1964,
+    2004
+  ],
+  "groups": {
+    "G01": [
+      "precip_feb_mm"
+    ],
+    "G02": [
+      "sunshine_feb_h"
+    ],
+    "G03": [
+      "precip_mar1_14_mm"
+    ],
+    "G04": [
+      "sunshine_mar1_14_h"
+    ],
+    "G05": [
+      "chill_days_0_7c_nov_feb"
+    ],
+    "G06": [
+      "chill_days_0_7c_mar1_14"
+    ],
+    "G07": [
+      "tmean_oct",
+      "tmean_nov"
+    ],
+    "G08": [
+      "tmin_mar1_14",
+      "frost_days_mar1_14"
+    ],
+    "G09": [
+      "tmean_dec",
+      "tmean_jan",
+      "tmin_jan",
+      "tmin_feb",
+      "tmin_lowest_nov_feb",
+      "frost_days_jan_feb"
+    ],
+    "G10": [
+      "latitude",
+      "longitude"
+    ],
+    "G11": [
+      "tmean_mar1_14",
+      "tmax_mar1_14",
+      "gdd5_mar1_14",
+      "cum_tmax_mar1_14",
+      "cum_tmean_mar1_14"
+    ],
+    "G12": [
+      "tmean_feb",
+      "tmax_feb",
+      "gdd5_feb",
+      "cum_tmax_feb",
+      "cum_tmean_feb",
+      "cum_tmax_feb1_mar14"
+    ],
+    "G13": [
+      "tmax_jan"
+    ],
+    "G14": [
+      "elevation_m"
+    ],
+    "G15": [
+      "relocations_before_season"
+    ],
+    "G16": [
+      "precip_feb_missing_days"
+    ],
+    "G17": [
+      "precip_mar1_14_missing_days"
+    ],
+    "G18": [
+      "sunshine_feb_missing_days"
+    ],
+    "G19": [
+      "sunshine_mar1_14_missing_days"
+    ]
+  }
+}

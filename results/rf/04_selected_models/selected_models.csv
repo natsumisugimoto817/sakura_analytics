@@ -1,0 +1,4 @@
+﻿date,sample,search,candidate_id,saved_valid_MAE,saved_valid_hit_rate_3d,n_estimators,max_depth,min_samples_leaf,max_features
+feb1,large,02 anomaly grid,4,3.784607878,0.474228534,200,5,30,sqrt
+mar1,large,02 anomaly grid,17,3.555300477,0.512051945,500,5,30,1.0
+mar15,small,03 refined grid,4,3.046474976277075,0.5854166666666667,500,8,10,0.7

@@ -238,15 +238,15 @@ def log_linear_regression(commit):
 
 def log_random_forest(commit):
     """RF: best model per forecast date for the large and small samples."""
-    best = RESULTS_ROOT / "rf" / "★best_models_anomaly_ref30_trainall_comparison.csv"
+    folder = RESULTS_ROOT / "rf" / "02_anomaly_grid"   # src/models/random_forest/02_rf_anomaly_grid.ipynb
+    best = folder / "best_models.csv"
     if not best.exists():
         return {}
     out = {}
     for _, r in pd.read_csv(best, encoding="utf-8-sig").iterrows():
         key, size = r["dataset"].split("-")
         date, small = DATE_KEYS[key], size == "small"
-        fold_path = (RESULTS_ROOT / "rf" / f"{date}_large_anomaly_ref30_trainall_best_candidate_fold_results"
-                     f"{'_small' if small else ''}.csv")
+        fold_path = folder / f"{date}_{size}_best_candidate_fold_results.csv"
         folds = []
         if fold_path.exists():
             for _, f in pd.read_csv(fold_path, encoding="utf-8-sig").iterrows():
