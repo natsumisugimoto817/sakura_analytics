@@ -229,7 +229,11 @@ sql/                       MySQL warehouse: 01-05 SQL files, setup_database.py,
 src/model_data.py          shared loading, folds, metrics, baseline
 src/example_model.py       template - copy to src/models/<your_model>.py
 src/models/                your model scripts
+src/models/random_forest/  random forest notebooks 01-05 + rf_common.py (see its README)
+src/monitoring/            input drift check (PSI) for the deployed SVR
 results/                   cross-validation results (*_cv.csv)
+results/rf/                random forest results, one folder per notebook (see its README)
+results/monitoring/        PSI tables and figures
 src/etl/                   loaders that fill MySQL + db_connection.py
 src/01_prepare_source_data/, src/02_preprocess/   how the source CSVs were made
 reference/                 EDA reports

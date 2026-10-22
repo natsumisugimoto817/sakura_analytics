@@ -1,0 +1,20 @@
+﻿group,n_features,features
+G01,1,precip_feb_mm
+G02,1,sunshine_feb_h
+G03,1,precip_mar1_14_mm
+G04,1,sunshine_mar1_14_h
+G05,1,chill_days_0_7c_nov_feb
+G06,1,chill_days_0_7c_mar1_14
+G07,2,tmean_oct | tmean_nov
+G08,2,tmin_mar1_14 | frost_days_mar1_14
+G09,6,tmean_dec | tmean_jan | tmin_jan | tmin_feb | tmin_lowest_nov_feb | frost_days_jan_feb
+G10,2,latitude | longitude
+G11,5,tmean_mar1_14 | tmax_mar1_14 | gdd5_mar1_14 | cum_tmax_mar1_14 | cum_tmean_mar1_14
+G12,6,tmean_feb | tmax_feb | gdd5_feb | cum_tmax_feb | cum_tmean_feb | cum_tmax_feb1_mar14
+G13,1,tmax_jan
+G14,1,elevation_m
+G15,1,relocations_before_season
+G16,1,precip_feb_missing_days
+G17,1,precip_mar1_14_missing_days
+G18,1,sunshine_feb_missing_days
+G19,1,sunshine_mar1_14_missing_days
